@@ -1,0 +1,315 @@
+@charset "UTF-8";
+
+/* Tablet */
+
+@media only screen and (min-width:768px) {
+    .naviSp {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {}
+
+
+/* Smartphone */
+
+@media only screen and (max-width:767px) {
+    .wrapSlide {
+        height: 520px;
+    }
+    .wrapSlide .inner::before {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        background: url('../../img/top/bg_wa@sp.png') no-repeat left bottom;
+        background-size: 100% 32px;
+        z-index: 300;
+    }
+    #slider li .text {
+        width: 90%;
+        left: 50%;
+        top: 22%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    #slider li .text h3 {
+        font-size: 10vw;
+    }
+    .wrapTop {
+        padding-top: 10px;
+    }
+    .h3_top {
+        font-size: 24px;
+        padding: 0 15px;
+        margin-bottom: 60px;
+    }
+    #products .h3_top {
+        padding-bottom: 90px;
+    }
+    .lstTop li {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .h2_page {
+        margin-bottom: 50px;
+    }
+    .boxVideo {
+        margin-top: -10px;
+        margin-bottom: 60px;
+        padding: 40px 15px 50px;
+    }
+    .boxVideo iframe {
+        height: 250px;
+    }
+    .leftBlog,
+    .rightBlog {
+        width: 100%;
+    }
+    .rightBlog {
+        margin-bottom: 30px;
+    }
+    .leftBlog .title {
+        font-size: 24px;
+    }
+    .leftBlog .date {
+        font-size: 12px;
+    }
+    .gem {
+        left: -15px;
+        z-index: 300;
+    }
+    .gem.reverse {
+        right: -15px;
+    }
+    .contactBox {
+        margin-top: 220px;
+        padding: 120px 15px 40px;
+    }
+    .contactBox .h2_page {
+        font-size: 35px;
+    }
+    .imgCup {
+        top: -18%;
+    }
+    #map {
+        height: 250px;
+    }
+    .lstContact li {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    #pageTop {
+        right: 0;
+    }
+    #pageTop img {
+        height: 100px;
+    }
+    .gem1 {
+        top: 30px;
+        height: 45px;
+        /* left: 20px; */
+    }
+    .gem1.reverse {
+        top: 10px;
+    }
+    .gem2 {
+        top: 60px;
+        height: 40px;
+        /* left: -10px; */
+    }
+    .gem2.reverse {
+        top: 80px;
+        /* right: 10px; */
+    }
+    .gem3 {
+        top: 120px;
+        height: 45px;
+        /* left: 20px; */
+    }
+    .gem3.reverse {
+        top: 160px;
+        /* right: 5px; */
+    }
+    .gem4 {
+        top: 260px;
+        height: 55px;
+    }
+    .gem4.reverse {
+        top: 313px;
+        /* right: -7px; */
+    }
+    .listProducts li .thumb,
+    .listProducts li .overflow {
+        width: 100%
+    }
+    .listProducts li .overflow .title {
+        font-size: 33px;
+    }
+    .listProducts li {
+        flex-direction: column-reverse;
+        margin-bottom: 70px;
+    }
+    .listProducts li .overflow a {
+        margin: 30px 0;
+    }
+    .lstFoot,
+    .lstSocial {
+        width: 100%;
+        justify-content: center;
+    }
+    .lstFoot li {
+        margin-bottom: 30px;
+    }
+    .lstFoot li:nth-child(4) {
+        border: none;
+    }
+    .lstSocial {
+        margin-top: 30px;
+    }
+    .leftDetail,
+    .rightDetail {
+        width: 100%;
+    }
+    .leftDetail {
+        padding: 0 30px;
+    }
+    .rightDetail {
+        padding: 0 15px;
+    }
+    #slideProFor,
+    #slideProImg {
+        width: 100%;
+    }
+    .nameProd {
+        font-size: 24px;
+    }
+    .descProd {
+        margin-top: 30px;
+    }
+    .tabItem li {
+        font-size: 17px;
+    }
+    .infoTech {
+        padding: 40px 15px;
+        margin-bottom: 50px;
+    }
+    .listMachines li .name {
+        font-size: 16px;
+    }
+    .productDetail .listMachines button.slick-prev {
+        left: 0;
+    }
+    .productDetail .listMachines button.slick-next {
+        right: 0;
+    }
+    .tabItem {
+        margin-top: 50px;
+    }
+    .wrapContent {
+        padding-top: 40px;
+    }
+    .mainSub h2 {
+        font-size: 10vw;
+    }
+    .lstRelated li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .lstRelated li img {
+        width: 100%;
+    }
+    .mainSub .inner {
+        top: 70px;
+    }
+    .moreBlog {
+        padding: 60px 0 40px;
+    }
+    .lstBlog li {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    #contact .tabItem li {
+        width: 100%;
+        padding-left: 15px;
+        text-align: left;
+    }
+    #contact .tabItem li.active {
+        background: #000;
+    }
+    #contact .tabItem li.active a {
+        color: #fff;
+    }
+    #contact .listContact {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    #contact .listContact li {
+        width: 100%;
+    }
+    #contact .imgCup {
+        margin-bottom: -46%;
+    }
+    .lstCareer {
+        padding: 0 15px;
+    }
+    .lstCareer li {
+        width: 100%;
+        align-items: flex-start
+    }
+    .lstCareer li img {
+        width: 45%;
+        margin-right: 15px;
+    }
+    .lstCareer li .desc {
+        padding: 15px 0;
+    }
+    .lstCareer li .title {
+        font-size: 16px;
+    }
+    .titleBlog {
+        font-size: 24px;
+    }
+    .popup {
+        width: calc(100% - 30px);
+        padding: 15px;
+    }
+    .popup .inner {
+        padding: 0;
+    }
+    .popup .inner .flexBox>li {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .popup .inner .head {
+        padding: 15px 0;
+    }
+    .popup .inner .head img {
+        height: 35px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 0
+    }
+    .popup .inner .head h5 {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+        font-size: 17px;
+    }
+    .lstItem li {
+        width: 50%;
+    }
+    .ItemPart .leftDetail,
+    .ItemPart .rightDetail {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .wrapSlide {
+        height: 440px;
+    }
+}
